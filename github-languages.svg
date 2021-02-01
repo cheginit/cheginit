@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="92" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="75" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -709,19 +709,15 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="369.6161547082209" height="8" fill="#DA5B0B"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="369.84419203480195" height="8" fill="#DA5B0B"/>
         
-          <rect mask="url(#languages-bar)" x="369.6161547082209" y="0" width="64.27947427105634" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="369.84419203480195" y="0" width="64.3191319518154" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="433.8956289792772" y="0" width="15.392322866959724" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="434.16332398661734" y="0" width="15.401819270490096" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="449.2879518462369" y="0" width="7.707657991044727" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="449.5651432571074" y="0" width="7.7124132856932155" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="456.9956098372817" y="0" width="2.7207648618851064" height="8" fill="#4d41b1"/>
-        
-          <rect mask="url(#languages-bar)" x="459.7163746991668" y="0" width="0.23202143449092233" height="8" fill="#ededed"/>
-        
-          <rect mask="url(#languages-bar)" x="459.94839613365775" y="0" width="0.0516038663422941" height="8" fill="#438eff"/>
+          <rect mask="url(#languages-bar)" x="457.27755654280065" y="0" width="2.7224434571993443" height="8" fill="#4d41b1"/>
         
       </svg>
       
@@ -750,16 +746,6 @@
             <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#4d41b1" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
               Fortran
-            </div>
-          
-            <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              GLSL
-            </div>
-          
-            <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#438eff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              Objective-C
             </div>
           
         </div>
