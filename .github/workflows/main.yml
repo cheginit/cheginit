@@ -1,18 +1,29 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
   push: {branches: ["master", "main"]}
   workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
-      - uses: lowlighter/metrics@master
+      - name: 📗 Profile
+        uses: lowlighter/metrics@master
         with:
-          # Your GitHub token
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+
+
+      # Display most used languages (with some unwanted languages ignored)
+      - name: 🈷️ Languages
+        uses: lowlighter/metrics@master
+        with:
+          filename: github-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
