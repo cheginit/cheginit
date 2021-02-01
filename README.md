@@ -3,3 +3,4 @@
 - 👯 I’m looking to collaborate on expanding Hydrodata's supported services and its data post-processing capabilities.
 
 ![Metrics](https://github.com/cheginit/cheginit/blob/main/github-metrics.svg)
+![Metrics](https://github.com/cheginit/cheginit/blob/main/github-languages.svg)
