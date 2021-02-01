@@ -709,24 +709,17 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="369.84419203480195" height="8" fill="#DA5B0B"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="328.174095109393" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="369.84419203480195" y="0" width="64.3191319518154" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="328.174095109393" y="0" width="78.58436438349412" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="434.16332398661734" y="0" width="15.401819270490096" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="406.75845949288714" y="0" width="39.35087701491585" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="449.5651432571074" y="0" width="7.7124132856932155" height="8" fill="#555555"/>
-        
-          <rect mask="url(#languages-bar)" x="457.27755654280065" y="0" width="2.7224434571993443" height="8" fill="#4d41b1"/>
+          <rect mask="url(#languages-bar)" x="446.109336507803" y="0" width="13.890663492196982" height="8" fill="#4d41b1"/>
         
       </svg>
       
         <div class="field center horizontal-wrap fill-width">
-          
-            <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              Jupyter Notebook
-            </div>
           
             <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
