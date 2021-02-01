@@ -26,4 +26,4 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, glsl, objective-c
+          plugin_languages_ignored: html, css, tex, dockerfile, makefile, cmake, shell, gnuplot, glsl, objective-c, jupyter notebook
