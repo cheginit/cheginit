@@ -843,13 +843,13 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="327.993024771933" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="327.5997011695455" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="327.993024771933" y="0" width="78.69230445331432" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="327.5997011695455" y="0" width="78.9267734320503" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="406.6853292252473" y="0" width="39.40492767048581" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="406.5264746015958" y="0" width="39.52233728521561" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="446.09025689573315" y="0" width="13.909743104266882" height="8" fill="#4d41b1"/>
+          <rect mask="url(#languages-bar)" x="446.04881188681145" y="0" width="13.951188113188588" height="8" fill="#4d41b1"/>
         
       </svg>
       
