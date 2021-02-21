@@ -18,15 +18,18 @@ jobs:
           plugin_languages: yes
           plugin_languages_threshold: 5
           plugin_languages_ignored: html, css, tex, dockerfile, makefile, cmake, shell, gnuplot, glsl, objective-c, jupyter notebook
+
       - name: Checkout repo
         uses: actions/checkout@v2
         # We need full history to introspect created/updated:
         with:
           fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+
       - uses: actions/cache@v2
         name: Configure pip caching
         with:
@@ -34,15 +37,19 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
+
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Update README
         run: |-
           curl --fail -sL -o tils.db https://github.com/cheginit/til-db/raw/main/tils.db
           python update_readme.py
+          rm tils.db
           cat README.md
+
       - name: Commit and push if README changed
         run: |-
           git diff
