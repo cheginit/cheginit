@@ -16,7 +16,6 @@ jobs:
           base: header, activity, repositories
           plugin_lines: yes
           plugin_languages: yes
-          plugin_languages_threshold: 5
           plugin_languages_ignored: html, css, tex, dockerfile, makefile, cmake, shell, gnuplot, glsl, objective-c, jupyter notebook
 
       - name: Checkout repo
