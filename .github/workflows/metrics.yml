@@ -40,7 +40,7 @@ jobs:
           pip install -r requirements.txt
       - name: Update README
         run: |-
-          curl --fail -o tils.db https://raw.githubusercontent.com/cheginit/til-db/tils.db
+          curl --fail -o tils.db https://github.com/cheginit/til-db/raw/main/tils.db
           python update_readme.py
           cat README.md
       - name: Commit and push if README changed
