@@ -47,11 +47,11 @@ jobs:
         run: |-
           curl --fail -sL -o tils.db https://github.com/cheginit/til-db/raw/main/tils.db
           python update_readme.py
-          rm tils.db
           cat README.md
 
       - name: Commit and push if README changed
         run: |-
+          git pull
           git diff
           git config --global user.email "readme-bot@example.com"
           git config --global user.name "README-bot"
