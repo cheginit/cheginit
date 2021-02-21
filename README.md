@@ -4,4 +4,4 @@
 
 Github | Recent TILs
 ------- | ---
-![Metrics](https://github.com/cheginit/cheginit/blob/main/github-metrics.svg) | <!-- tils starts -->[Connect to A Remote JupyterLab Server](https://github.com/cheginit/til/blob/main/jupyter/remote.md) - 2021-02-21<br>[Install and setup `miniforge`](https://github.com/cheginit/til/blob/main/python/miniforge.md) - 2021-02-20<!-- tils ends -->
+![Metrics](https://github.com/cheginit/cheginit/blob/main/github-metrics.svg) | <!-- tils starts -->[Setup `netrc` for using EarthData](https://github.com/cheginit/til/blob/main/web-service/netrc.md) - 2021-02-21<br>[Connect to A Remote JupyterLab Server](https://github.com/cheginit/til/blob/main/jupyter/remote.md) - 2021-02-21<br>[Install and setup `miniforge`](https://github.com/cheginit/til/blob/main/python/miniforge.md) - 2021-02-20<!-- tils ends -->
