@@ -1,14 +1,11 @@
 """Update README.md by adding the five recent TILs."""
 import re
-import sys
-from pathlib import Path
 
 import sqlite_utils
 
-tils_root = Path(sys.argv[1])
 
 if __name__ == "__main__":
-    db = sqlite_utils.Database(tils_root.joinpath("tils.db"))
+    db = sqlite_utils.Database("tils.db")
 
     sql = "select path, title, url, topic, slug, created_utc from til order by created_utc desc limit 5"
     tils = db.execute_returning_dicts(sql)
