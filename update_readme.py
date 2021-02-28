@@ -7,7 +7,7 @@ import sqlite_utils
 if __name__ == "__main__":
     db = sqlite_utils.Database("tils.db")
 
-    sql = "select path, title, url, topic, slug, created_utc from til order by created_utc desc limit 5"
+    sql = "select path, title, url, topic, slug, created_utc from til order by created_utc desc limit 10"
     tils = db.execute_returning_dicts(sql)
 
     base = "https://github.com/cheginit/til/blob/main"
