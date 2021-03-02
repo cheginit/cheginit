@@ -1,4 +1,4 @@
-- 🔭 I’m currently working on [Hydrodata](https://github.com/cheginit/hydrodata) software stack.
+- 🔭 I’m currently working on [PyGeoHydro](https://github.com/cheginit/pygeohydro) software stack.
 - 🌱 I’m currently learning [WRF-Hydro](https://github.com/NCAR/wrf_hydro_nwm_public).
 - 👯 I’m looking to collaborate on expanding Hydrodata's supported services and its data post-processing capabilities.
 
