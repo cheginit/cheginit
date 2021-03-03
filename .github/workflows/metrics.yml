@@ -13,7 +13,7 @@ jobs:
           access_token: ${{ github.token }}
 
       - name: 📗 Profile
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
