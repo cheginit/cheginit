@@ -1,6 +1,6 @@
 - 🔭 I’m currently working on [HyRiver](https://github.com/cheginit/HyRiver) software stack.
 - 🌱 I’m currently learning [WRF-Hydro](https://github.com/NCAR/wrf_hydro_nwm_public).
-- 👯 I’m looking to collaborate on expanding PyGeoHydro's supported services and its data post-processing capabilities.
+- 👯 I’m looking to collaborate on expanding HyRiver's supported services and its data processing capabilities.
 
 Github | Recent TILs
 ------- | ---
