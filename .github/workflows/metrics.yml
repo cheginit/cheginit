@@ -21,7 +21,7 @@ jobs:
           base: header, activity, repositories
           plugin_lines: yes
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, dockerfile, makefile, cmake, shell, gnuplot, glsl, objective-c, jupyter notebook
+          plugin_languages_ignored: html, css, tex, dockerfile, makefile, cmake, shell, gnuplot, glsl, objective-c, jupyter notebook, ruby, scss, javascript
 
       - name: Checkout repo
         uses: actions/checkout@v2
