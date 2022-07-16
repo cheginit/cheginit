@@ -1,6 +1,11 @@
-- 🔭 I’m currently working on [HyRiver](https://github.com/cheginit/HyRiver) software stack.
+I am a PhD Candidate at the University of Houston, Texas. My primary research focus is on large-scale urban hydrological modeling.
+I am passionate about [open science](https://github.com/nasa/Transform-to-Open-Science) and facilitating
+adapting [FAIR practices](https://www.go-fair.org/fair-principles/) in conducting and publishing research studies.
+
+- 🔭 I’m the developer of [HyRiver](https://github.com/cheginit/HyRiver) software stack.
 - 🌱 I’m currently learning [E3SM](https://github.com/E3SM-Project).
-- 👯 I’m looking to collaborate on expanding HyRiver's supported services and its data processing capabilities.
+- 👯 I’m looking to collaborate on large-scale flood modeling and analysis, as well as
+expanding HyRiver's supported services and its data processing capabilities.
 
 Github | Recent TILs
 ------- | ---
