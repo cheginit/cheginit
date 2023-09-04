@@ -1,4 +1,4 @@
-I am postdoc at Purdue University. My primary research focus is on large-scale urban hydrological modeling and flood modeling.
+I am a postdoc at Purdue University. My primary research focus is on large-scale urban hydrological modeling and flood modeling.
 I am passionate about [open science](https://github.com/nasa/Transform-to-Open-Science) and facilitating
 adapting [FAIR practices](https://www.go-fair.org/fair-principles/) in conducting and publishing research studies.
 
